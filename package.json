@@ -1,0 +1,20 @@
+{
+  "name": "claude-tiktok-hook",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "TikTok auto-play/pause hook for Claude Code via Chrome DevTools Protocol",
+  "main": "src/cli.mjs",
+  "scripts": {
+    "play": "node src/cli.mjs play",
+    "pause": "node src/cli.mjs pause",
+    "cleanup": "node src/cli.mjs cleanup",
+    "status": "node src/cli.mjs status"
+  },
+  "dependencies": {
+    "playwright-core": "^1.49.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
